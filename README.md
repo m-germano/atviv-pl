@@ -97,10 +97,10 @@ npm run dev
 
 ```bash
 # Clone o repositório
-git clone https://github.com/gerson-pn/atviv-pl-typescript
+git clone https://github.com/gerson-pn/atviv-pl
 
 # Acesse o diretório
-cd atviv-pl-typescript
+cd atviv-pl
 
 # Instale as dependências
 npm install
