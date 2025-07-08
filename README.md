@@ -12,7 +12,8 @@ Implementar uma interface gráfica funcional, moderna e responsiva, com foco na 
 
 ## 🧰 Tecnologias Utilizadas
 
-- **React 18.2.0** – biblioteca para construção da interface gráfica  
+- **React 18.2.0** – biblioteca para construção da interface gráfica
+- **NodeJS v22.15.0** - Instalação dos pacotes
 - **TypeScript** – tipagem estática e estrutura robusta  
 - **ShadCN + Tailwind CSS** – estilização moderna e responsiva  
 - **React Hooks** – `useState`, `useEffect`, etc.  
