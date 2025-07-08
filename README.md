@@ -13,12 +13,12 @@ Implementar uma interface gráfica funcional, moderna e responsiva, com foco na 
 ## 🧰 Tecnologias Utilizadas
 
 - **React 18.2.0** – biblioteca para construção da interface gráfica
-- **NodeJS v22.15.0** - Instalação dos pacotes
+
 - **TypeScript** – tipagem estática e estrutura robusta  
 - **ShadCN + Tailwind CSS** – estilização moderna e responsiva  
 - **React Hooks** – `useState`, `useEffect`, etc.  
 - **Axios** – biblioteca para requisições HTTP  
-- **Java 17+ ou Node.js** – servidor back-end
+- **Java 17+ ou NodeJS v22.15.0 (Express)** – servidor back-end (por padrão, o projeto utiliza o Express)
 
 ---
 
