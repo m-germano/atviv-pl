@@ -102,9 +102,12 @@ npx prisma generate
 
 # Inicie o servidor
 npm run start
+```
+
 
 ### 🔹 Executar o Front-end
 
+```bash
 # Clone o repositório (caso ja feito no processo anterior, pule esse e o proximo passo)
 git clone https://github.com/gerson-pn/atviv-pl
 
