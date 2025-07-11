@@ -84,26 +84,35 @@ java -jar pl.jar
 ### 🔹 Opção 2 – Executar Back-end Express (Node.js)
 
 ```bash
-# Acesse a pasta do seu servidor Express
-cd backend-express
+# Na raiz da pasta que foi dado o clone: 
+git submodule update --init --recursive
 
-# Instale as dependências
+cd backend
+
 npm install
 
+# Configure o banco no .env (Exemplo abaixo)
+DATABASE_URL="postgresql://usuario:senha@localhost:5432/nome_do_banco?schema=public"
+
+# Execute as migrações
+npx prisma migrate dev
+
+# gere o cliente Prisma 
+npx prisma generate
+
 # Inicie o servidor
-npm run dev
-```
+npm run start
 
 ### 🔹 Executar o Front-end
 
 ```bash
-# Clone o repositório
+# Clone o repositório (caso ja feito no processo anterior, pule esse e o proximo passo)
 git clone https://github.com/gerson-pn/atviv-pl
 
 # Acesse o diretório
 cd atviv-pl
 
-# Instale as dependências
+# Instale as dependências (na pasta raiz)
 npm install
 
 # Inicie o servidor de desenvolvimento
